@@ -14,18 +14,17 @@ export default function Layout({ children, categories }) {
         <div className="flex justify-center">
           <div
             className="
-            mobile:px-12 sm:flex-row sm:pt-12 sm:pb-6 desktop:px-0
-            px-4 pt-8 flex flex-col w-fw
+            mobile:px-12 mb-10 sm:flex-row sm:pt-12
           "
           >
-            <div className="mb-4 sm:mr-16 max-w-48 sm:max-w-none">
+            <div className="sm:m-auto">
               <Link href="/">
                 <a aria-label="Home">
                   <img
-                    className="sm:mt-0"
+                    className="sm:m-auto"
                     src="/logo.png"
                     alt="logo"
-                    width="150"
+                    width="250"
                   />
                 </a>
               </Link>
