@@ -66,7 +66,7 @@ const Cart = ({ context }) => {
                 {cart.map((item) => {
                   return (
                     <div className="border-b py-10" key={item.id}>
-                      <div className="flex items-center hidden md:flex">
+                      <div className="items-center hidden md:flex">
                         <Link href={`/product/${slugify(item.name)}`}>
                           <a aria-label={item.name}>
                             <Image
@@ -110,7 +110,7 @@ const Cart = ({ context }) => {
                         </div>
                       </div>
 
-                      <div className="flex items-center flex md:hidden">
+                      <div className="items-center flex md:hidden">
                         <Link href={`/product/${slugify(item.name)}`}>
                           <a>
                             <Image

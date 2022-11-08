@@ -28,7 +28,7 @@ const Home = ({ inventoryData = [], categories: categoryData = [] }) => {
           <meta property="og:title" content="Jamstack ECommerce" key="title" />
         </Head>
         <div
-          className="bg-blue-300
+          className="bg-purple-400
         p-6 pb-10 smpb-6
         flex lg:flex-row flex-col"
         >
@@ -39,7 +39,7 @@ const Home = ({ inventoryData = [], categories: categoryData = [] }) => {
               title={inventory[2].name}
               link={`/product/${slugify(inventory[2].name)}`}
             />
-            <Footer designer="Jason Bourne" />
+            <Footer designer="Eduardo souza" />
           </div>
           <div className="flex flex-1 justify-center items-center relative">
             <Showcase imageSrc={inventory[2].image} />
